@@ -23,6 +23,7 @@ import board, { boardId, createModel as boardModel } from '@hcengineering/model-
 import calendar, { calendarId, createModel as calendarModel } from '@hcengineering/model-calendar'
 import chunter, { chunterId, createModel as chunterModel } from '@hcengineering/model-chunter'
 import contact, { contactId, createModel as contactModel } from '@hcengineering/model-contact'
+import form, { formId, createModel as formModel } from '@hcengineering/model-forms'
 import { createModel as coreModel } from '@hcengineering/model-core'
 import gmail, { gmailId, createModel as gmailModel } from '@hcengineering/model-gmail'
 import hr, { hrId, createModel as hrModel } from '@hcengineering/model-hr'
@@ -119,6 +120,18 @@ export default function buildModel (enabled: string[] = ['*'], disabled: string[
         enabled: true,
         beta: false,
         icon: contact.icon.ContactApplication,
+        classFilter: defaultFilter
+      }
+    ],
+    [
+      formModel,
+      formId,
+      {
+        label: form.string.ConfigLabel,
+        description: form.string.ConfigDescription,
+        enabled: true,
+        beta: false,
+        icon: form.icon.FormsApplication,
         classFilter: defaultFilter
       }
     ],

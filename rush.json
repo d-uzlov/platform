@@ -627,6 +627,26 @@
       "shouldPublish": false
     },
     {
+      "packageName": "@hcengineering/forms",
+      "projectFolder": "plugins/forms",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@hcengineering/model-forms",
+      "projectFolder": "models/forms",
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@hcengineering/forms-assets",
+      "projectFolder": "plugins/forms-assets",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@hcengineering/forms-resources",
+      "projectFolder": "plugins/forms-resources",
+      "shouldPublish": false
+    },
+    {
       "packageName": "@hcengineering/task",
       "projectFolder": "plugins/task",
       "shouldPublish": true

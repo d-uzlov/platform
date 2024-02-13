@@ -32,6 +32,7 @@
     "@hcengineering/model-view": "^0.6.0",
     "@hcengineering/model-workbench": "^0.6.1",
     "@hcengineering/model-contact": "^0.6.1",
+    "@hcengineering/model-forms": "^0.6.1",
     "@hcengineering/model-task": "^0.6.0",
     "@hcengineering/model-chunter": "^0.6.0",
     "@hcengineering/model-recruit": "^0.6.0",
